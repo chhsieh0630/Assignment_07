@@ -175,7 +175,7 @@ class IO:
 # 1. When program starts, read in the currently saved Inventory
 # Error Hadling if no CDInventory.dat file found
 while True:
-    flag = False
+    flag = False      # Use flag to decide when to break the loop
     try:
         FileProcessor.read_file(strFileName, lstTbl)
     except FileNotFoundError:
