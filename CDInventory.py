@@ -190,7 +190,7 @@ while True:
         # 3. Process menu selection
         # 3.1 process exit first
             if strChoice == 'x':
-                flag = True           #if flag==True, break out all while loop
+                flag = True           #if flag==True, break the loop
                 break
         # 3.2 process load inventory
             if strChoice == 'l':
@@ -227,7 +227,7 @@ while True:
         # 3.7 catch-all should not be possible, as user choice gets vetted in IO, but to be save:
             else:
                 print('General Error')
-    if flag == True:             # if user enter 'x', flag==True then break the loop
+    if flag == True:             # if user enter 'x', flag==True then break all while loop
             break
 
 
