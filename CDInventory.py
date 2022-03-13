@@ -35,7 +35,6 @@ class DataProcessor:
             print('{}\t{} (by:{})'.format(*row.values()))
         print('======================================')
         return lstTbl
-        pass
 
     def delete_file(table):
         """Function to delete CD data row from memory
