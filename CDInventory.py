@@ -4,8 +4,8 @@
 # Change Log: (Who, When, What)
     # DBiesinger, 2030-Jan-01, Created File
     # Jerry Hsish, 2022-Mar-03, Modified
-    # Jerry Hsieh, 2022-Mar-10, Add structured error handling
-    # Jerry Hsieh, 2022-Mar-12, Add binary data storage
+    # Jerry Hsieh, 2022-Mar-10, Add Structured error handling
+    # Jerry Hsieh, 2022-Mar-12, Add Binary data storage
 #------------------------------------------#
 
 import pickle
